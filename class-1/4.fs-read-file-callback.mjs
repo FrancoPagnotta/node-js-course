@@ -6,7 +6,7 @@ readFile("hello-world.txt", "utf-8", (err, text) => { // --> wait for this
   console.log("first text: ", text);
 });
 
-console.log('waiting...'); // --> do nothing, the processor is free
+console.log("waiting..."); // --> do nothing, the processor is free
 
 readFile("heroes.txt", "utf-8", (err, text) => {  // --> wait for this 
   console.log("second text: ", text);
